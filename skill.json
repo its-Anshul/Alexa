@@ -1,0 +1,45 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:856305304148:function:d75d991d-21a2-4466-8c63-30ba60d2db51:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:856305304148:function:d75d991d-21a2-4466-8c63-30ba60d2db51:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:856305304148:function:d75d991d-21a2-4466-8c63-30ba60d2db51:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:856305304148:function:d75d991d-21a2-4466-8c63-30ba60d2db51:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::person_id:read"
+      }
+    ],
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-GB": {
+          "name": "MMT"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
